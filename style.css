@@ -1,0 +1,202 @@
+/* üst bilgi sol taraftaki yazılar */
+.left{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 13px;
+}
+/* üst bilgi sol taraftaki yazılar */
+.head-left{
+    
+    margin-top: 1%;
+    height: 8%;
+    float: left;
+    text-align: left;
+    text-underline-offset: 1;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+/* üst bilgi sağ taraftaki yazılar */
+.right{
+
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* üst bilgi sağ taraftaki yazılar */
+.head-right{
+    margin-top: 1%;
+    height: 8%;
+    float: right;
+    text-align: right;
+    text-underline-offset: 1;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+/* 3*3 lük görsel için ayarlamalar */
+.apps{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-right: 20px;
+}
+
+/* profil fotoğrafı için ayarlamalar */
+.apps-radius{
+    border-radius: 50px;
+    margin-top: 0px;
+   
+}
+
+/* logo ayarlamaları */
+
+.container{
+    text-align: center;
+    margin: 100px 100px 0px 100px;
+    height: 92;
+    position:inherit;
+}
+
+
+/* google textbox */
+
+.searchline{
+    height: 20%;
+    width: 700px;
+    margin: 0 auto;
+    position:inherit;
+    top:32%;
+    left: 37%;
+
+}
+.input{
+    width: 580px;
+    height: 40px;
+    border:solid 2px #d6d6d6c2;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+input:hover{
+    box-shadow: 0px 3px 5px 1px rgba(158, 158, 158, 0.664);
+}
+.text-input{
+    width:480px;
+    height: 25px;
+    border: none;
+
+}
+.text-input:focus{
+    border:solid 1px transparent;
+}
+
+/* text box bitti */
+.googlesearch {
+    margin: 50px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px;
+    border-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 24%), 0 2px 5px 0 rgb(0 0 0 / 19%);
+    border-radius: 5px;
+    position:inherit;
+}
+
+/* lucky butonu */
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px;
+    border-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 24%), 0 2px 5px 0 rgb(0 0 0 / 19%);
+    border-radius: 5px;
+    position:inherit;
+}
+
+/* buton style için ayarlamalar */
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+/* sayfa sonu */
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 0px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+}
+
+/* sayfa sonu sol taraftaki yazılar */
+.footer-left{
+    display: block;
+    color: #70757a;
+    text-align: left;
+    padding: 14px 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+    text-decoration: none;
+    float: left;
+}
+
+/* sayfa sonu sol taraftaki yazılar */
+.footer-right{
+    display: block;
+    color: #70757a;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+    float: right;
+}
