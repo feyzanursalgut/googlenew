@@ -1,1 +1,1 @@
-# googlenew Google anasayfası
+# googlenew
